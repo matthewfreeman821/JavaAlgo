@@ -8,6 +8,14 @@ public class ReverseString {
     return reversedString;
   }
 
+  public static String reverseString2(String s) {
+    String reversedString = "";
+    for (int i = s.length() - 1; i >= 0; i--) {
+      reversedString += reversedString + s.charAt(i);
+    }
+    return reversedString;
+  }
+
   public static void main(String[] args) {
     System.out.println("Reversing a string");
     System.out.println(reverseString("Hello"));
