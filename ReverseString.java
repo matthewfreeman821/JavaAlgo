@@ -17,7 +17,9 @@ public class ReverseString {
   }
 
   public static void main(String[] args) {
-    System.out.println("Reversing a string");
-    System.out.println(reverseString("Hello"));
+    System.out.println("Reversing a string:");
+    System.out.println(reverseString("Well hello there"));
+    System.out.println("Second way to reverse a string:");
+    System.out.println(reverseString2("General Kenobi"));
   }
 }
