@@ -9,13 +9,13 @@ public class ReverseString {
   }
 
   public static String reverseString2(String s) {
-    String reversedString = "";
+    String reversedString2 = "";
     for (int i = s.length() - 1; i >= 0; i--) {
       System.out.println(i);
       System.out.println(s.charAt(i));
-      reversedString += reversedString + s.charAt(i);
+      reversedString2 += reversedString2 + s.charAt(i);
     }
-    return reversedString;
+    return reversedString2;
   }
 
   public static void main(String[] args) {
