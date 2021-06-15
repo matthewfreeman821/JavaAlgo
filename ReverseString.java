@@ -16,6 +16,13 @@ public class ReverseString {
     return reversedString2;
   }
 
+  public static String reverseString3(String s) {
+    StringBuilder newString = new StringBuilder(s);
+    String reversedString3 = newString.reverse();
+    return reversedString3;
+
+  }
+
   public static void main(String[] args) {
     System.out.println("Reversing a string:");
     System.out.println(reverseString("Well hello there"));
