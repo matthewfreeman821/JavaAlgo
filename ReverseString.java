@@ -23,6 +23,15 @@ public class ReverseString {
 
   }
 
+  public static void testingBoolean() {
+    boolean b = true;
+    if (b = false) {
+      System.out.println("Hello");
+    } else {
+      System.out.println("Bye");
+    }
+  }
+
   public static void main(String[] args) {
     System.out.println("Reversing a string:");
     System.out.println(reverseString("Well hello there"));
@@ -30,5 +39,6 @@ public class ReverseString {
     System.out.println(reverseString2("General Kenobi"));
     System.out.println("Third way to reverse a string:");
     System.out.println(reverseString3("Trying to break it 32434234"));
+    testingBoolean();
   }
 }
