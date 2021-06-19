@@ -9,17 +9,17 @@ public class ReverseString {
   }
 
   public static String reverseString2(String s) {
-    String reversedString2 = "";
+    String reversedString = "";
     for (int i = s.length() - 1; i >= 0; i--) {
-      reversedString2 = reversedString2 + s.charAt(i);
+      reversedString = reversedString + s.charAt(i);
     }
-    return reversedString2;
+    return reversedString;
   }
 
   public static String reverseString3(String s) {
     StringBuilder newString = new StringBuilder(s);
-    String reversedString3 = newString.reverse().toString();
-    return reversedString3;
+    String reversedString = newString.reverse().toString();
+    return reversedString;
 
   }
 
