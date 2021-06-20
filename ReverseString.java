@@ -29,6 +29,5 @@ public class ReverseString {
     System.out.println("Second way to reverse a string:");
     System.out.println(reverseString2("General Kenobi"));
     System.out.println("Third way to reverse a string:");
-    System.out.println(reverseString3("Trying to break it 32434234"));
   }
 }
