@@ -20,7 +20,6 @@ public class ReverseString {
     StringBuilder newString = new StringBuilder(s);
     String reversedString = newString.reverse().toString();
     return reversedString;
-
   }
 
   public static void main(String[] args) {
