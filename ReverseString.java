@@ -22,6 +22,17 @@ public class ReverseString {
     return reversedString;
   }
 
+  public boolean isPalindrome(String s) {
+    String reversedString = reverseString(s);
+    int count = 0;
+    for (int i = 0; i < s.length(); i++) {
+      if (s.charAt(i) == reversedString.charAt(s.length() - i)) {
+        count++;
+      }
+    }
+    return count == s.length();
+  }
+
   public static void main(String[] args) {
     System.out.println("Reversing a string:");
     System.out.println(reverseString("Well hello there"));
