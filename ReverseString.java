@@ -22,7 +22,7 @@ public class ReverseString {
     return reversedString;
   }
 
-  public boolean isPalindrome(String s) {
+  public static boolean isPalindrome(String s) {
     String reversedString = reverseString(s);
     int count = 0;
     for (int i = 0; i < s.length(); i++) {
