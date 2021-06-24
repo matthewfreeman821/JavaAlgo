@@ -26,7 +26,7 @@ public class ReverseString {
     String reversedString = reverseString(s);
     int count = 0;
     for (int i = 0; i < s.length(); i++) {
-      if (s.charAt(i) == reversedString.charAt(s.length() - i)) {
+      if (s.charAt(i) == reversedString.charAt(s.length() - 1 - i)) {
         count++;
       }
     }
