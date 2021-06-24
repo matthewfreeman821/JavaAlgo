@@ -34,11 +34,6 @@ public class ReverseString {
   }
 
   public static void main(String[] args) {
-    System.out.println("Reversing a string:");
-    System.out.println(reverseString("Well hello there"));
-    System.out.println("Second way to reverse a string:");
-    System.out.println(reverseString2("General Kenobi"));
-    System.out.println("Third way to reverse a string:");
-    System.out.println(reverseString3("Can 123456 work?"));
+    System.out.println();
   }
 }
