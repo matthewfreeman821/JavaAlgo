@@ -32,6 +32,8 @@ public class ReverseString {
     // count++;
     // }
     // }
+
+    // This still does not work
     return stringCharArray.equals(reversedStringCharArray);
   }
 
