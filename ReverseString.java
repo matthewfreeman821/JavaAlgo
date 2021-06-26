@@ -24,9 +24,11 @@ public class ReverseString {
 
   public static boolean isPalindrome(String s) {
     String reversedString = reverseString(s);
+    char[] stringCharArray = s.toCharArray();
+    char[] reversedStringCharArray = reversedString.toCharArray();
     int count = 0;
     for (int i = 0; i < s.length(); i++) {
-      if (s.charAt(i) == reversedString.charAt(s.length() - 1 - i)) {
+      if (stringCharArray[i] == reversedStringCharArray[s.length() - 1 - i]) {
         count++;
       }
     }
