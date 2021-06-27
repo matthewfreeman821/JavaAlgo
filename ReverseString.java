@@ -32,7 +32,7 @@ public class ReverseString {
         count++;
       }
     }
-    return count == s.length();
+    return count == s.length() / 2;
   }
 
   public static void main(String[] args) {
