@@ -26,15 +26,13 @@ public class ReverseString {
     String reversedString = reverseString(s);
     char[] stringCharArray = s.toCharArray();
     char[] reversedStringCharArray = reversedString.toCharArray();
-    // int count = 0;
-    // for (int i = 0; i < s.length(); i++) {
-    // if (stringCharArray.equals(reversedStringCharArray)) {
-    // count++;
-    // }
-    // }
-
-    // This still does not work
-    return stringCharArray.equals(reversedStringCharArray);
+    int count = 0;
+    for (int i = 0; i < s.length() / 2; i++) {
+      if (stringCharArray[i] == reversedStringCharArray[i]) {
+        count++;
+      }
+    }
+    return count == s.length();
   }
 
   public static void main(String[] args) {
