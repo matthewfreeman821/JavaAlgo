@@ -38,6 +38,6 @@ public class ReverseString {
   public static void main(String[] args) {
     System.out.println(isPalindrome("123321"));
     System.out.println(isPalindrome("hello"));
-    System.out.println(isPalindrome("HelloolleH"))
+    System.out.println(isPalindrome("Helloolle9"));
   }
 }
