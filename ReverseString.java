@@ -35,6 +35,17 @@ public class ReverseString {
     return count == s.length() / 2;
   }
 
+  public static boolean isPalindrome2(String s) {
+    String reversedString = reverseString(s);
+    int count = 0;
+    for (int i = 0; i < s.length() / 2; i++) {
+      if (s.charAt(i) == reversedString.charAt(i)) {
+        count++;
+      }
+    }
+    return count == s.length() / 2;
+  }
+
   public static void main(String[] args) {
     System.out.println(isPalindrome("123321"));
     System.out.println(isPalindrome("hello"));
