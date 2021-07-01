@@ -50,5 +50,7 @@ public class ReverseString {
     System.out.println(isPalindrome("123321"));
     System.out.println(isPalindrome("hello"));
     System.out.println(isPalindrome("Helloolle9"));
+    System.out.println(isPalindrome2("123321"));
+    System.out.println(isPalindrome2("hello"));
   }
 }
