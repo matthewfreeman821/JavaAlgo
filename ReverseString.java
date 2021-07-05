@@ -47,6 +47,8 @@ public class ReverseString {
   }
 
   public static void main(String[] args) {
+    String pali = "Hello olleH";
+    String notPali = "Hello";
     System.out.println("Hello");
 
   }
