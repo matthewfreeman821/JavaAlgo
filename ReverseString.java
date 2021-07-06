@@ -49,7 +49,8 @@ public class ReverseString {
   public static void main(String[] args) {
     String pali = "Hello olleH";
     String notPali = "Hello";
-    System.out.println("Hello");
+    System.out.println(isPalindrome(pali);
+    System.out.println(isPalindrome2(pali);
 
   }
 }
