@@ -51,6 +51,7 @@ public class ReverseString {
     String notPali = "Hello";
     System.out.println(isPalindrome(pali));
     System.out.println(isPalindrome2(pali));
-
+    System.out.println(isPalindrome(notPali));
+    System.out.println(isPalindrome2(notPali));
   }
 }
