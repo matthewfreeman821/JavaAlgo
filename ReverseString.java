@@ -50,12 +50,6 @@ public class ReverseString {
     String pali = "Hello olleH";
     String notPali = "Hello";
     String notPali2 = "0912938@3";
-    System.out.println(isPalindrome(pali));
-    System.out.println(isPalindrome2(pali));
-    System.out.println(isPalindrome(notPali));
-    System.out.println(isPalindrome2(notPali));
-    System.out.println(isPalindrome(notPali2));
-    System.out.println(isPalindrome2(notPali2));
     System.out.println("Currently works perfectly");
   }
 }
