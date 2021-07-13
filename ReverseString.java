@@ -1,4 +1,9 @@
 public class ReverseString {
+
+  String pali = "Hello olleH";
+  String notPali = "Hello";
+  String notPali2 = "0912938@3";
+
   public static String reverseString(String s) {
     String reversedString = "";
     char[] stringArray = s.toCharArray();
@@ -47,9 +52,6 @@ public class ReverseString {
   }
 
   public static void main(String[] args) {
-    // String pali = "Hello olleH";
-    // String notPali = "Hello";
-    // String notPali2 = "0912938@3";
     System.out.println("Currently works perfectly");
   }
 }
