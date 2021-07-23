@@ -57,6 +57,12 @@ public class ReverseString {
     return true;
   }
 
+  public static boolean isPalindrome4(String s) {
+    // Utlize a predicate to evaluate if the string is a palindrome
+
+    return true;
+  }
+
   public static void main(String[] args) {
     System.out.println("Currently works perfectly");
   }
