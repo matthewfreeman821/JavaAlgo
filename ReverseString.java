@@ -51,6 +51,12 @@ public class ReverseString {
     return count == s.length() / 2;
   }
 
+  public static boolean isPalindrome3(String s) {
+    // Utlize an enhanced for loop to evaluate if the string is a palindrome
+
+    return true;
+  }
+
   public static void main(String[] args) {
     System.out.println("Currently works perfectly");
   }
