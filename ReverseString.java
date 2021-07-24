@@ -53,6 +53,12 @@ public class ReverseString {
 
   public static boolean isPalindrome3(String s) {
     // Utlize an enhanced for loop to evaluate if the string is a palindrome
+    int count = 0;
+    char[] stringArray = s.toCharArray();
+    // Should look something like:
+    for (char letter : stringArray) {
+      // logic here
+    }
 
     return true;
   }
