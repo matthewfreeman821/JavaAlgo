@@ -70,6 +70,6 @@ public class ReverseString {
   }
 
   public static void main(String[] args) {
-    System.out.println("Currently works perfectly");
+    System.out.println(isPalindrome3("kayak"));
   }
 }
