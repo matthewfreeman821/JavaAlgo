@@ -57,7 +57,7 @@ public class ReverseString {
     char[] stringArray = s.toCharArray();
     // Should look something like:
     for (char letter : stringArray) {
-      // logic here
+      System.out.println(letter);
     }
 
     return true;
